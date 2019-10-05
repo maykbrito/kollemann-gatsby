@@ -1,0 +1,22 @@
+header {
+  background: rgba(0,0,0,0.4);
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+}
+
+header h1 {
+  font-size:1.25rem;
+}
+
+.top-slider {
+  width: 100%;
+  z-index: 0;
+  position: relative;
+  height:580px;
+}
+
+.top-slider .swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: 40px;
+  filter: brightness(100);
+}

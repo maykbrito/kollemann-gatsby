@@ -11,7 +11,11 @@ import { StaticQuery, graphql } from "gatsby"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-import Header from "./header"
+import Header from "./sections/header"
+import About from "./sections/about"
+import Gallery from "./sections/gallery"
+
+
 import "./layout.css"
 
 
@@ -43,7 +47,11 @@ class Layout extends React.Component {
         `}
         render={data => (
           <>
-            <Header siteTitle={data.site.siteMetadata.title} />
+            <Header />
+
+            <About></About>
+
+            <Gallery></Gallery>
             <div
               style={{
                 margin: `0 auto`,
@@ -52,7 +60,11 @@ class Layout extends React.Component {
                 paddingTop: 0,
               }}
             >
-              <main>{children}</main>
+
+              <main>
+              {children}
+              
+              </main>
               <footer>
                 © {new Date().getFullYear()}, Built with
                 {` `}

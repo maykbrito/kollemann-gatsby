@@ -21,7 +21,9 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-id-swiper": "^2.3.2",
+    "swiper": "^5.0.4"
   },
   "devDependencies": {
     "prettier": "^1.17.1"

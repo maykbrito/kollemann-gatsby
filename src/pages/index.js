@@ -26,7 +26,7 @@ const IndexPage = ({ data }) => (
                 style={{ marginBottom: 0 }}
               />
               <p style={{ margin: 0, color: "grey" }}>
-                Written by {post.node.author.name} on {post.node.date}
+                {post.node.date}
               </p>
               <div dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
             </div>
@@ -47,9 +47,6 @@ export const query = graphql`
           title
           excerpt
           slug
-          author {
-            name
-          }
           date(formatString: "MMMM DD, YYYY")
           acf {
             feat_img {
