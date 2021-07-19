@@ -15,7 +15,7 @@
     "gatsby-plugin-sharp": "^2.1.0",
     "gatsby-plugin-sitemap": "^2.1.0",
     "gatsby-source-filesystem": "^2.0.37",
-    "gatsby-source-wordpress": "^3.0.62",
+    "gatsby-source-wordpress": "^4.0.8",
     "gatsby-transformer-sharp": "^2.1.19",
     "path": "^0.12.7",
     "prop-types": "^15.7.2",
